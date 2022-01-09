@@ -1,5 +1,6 @@
-window.onfocus = function() { document.title = "Dashboard"; };
-
+window.onfocus = function() {
+   document.title = "Dashboard";
+};
 (function() {
     var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
     link.type = 'image/x-icon';
